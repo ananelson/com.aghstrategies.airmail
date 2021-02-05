@@ -84,6 +84,10 @@ class CRM_Airmail_Utils {
         'class' => 'CRM_Airmail_Backend_Elastic',
         'label' => 'ElasticEmail',
       ],
+      'SmtpCom' => [
+        'class' => 'CRM_Airmail_Backend_SmtpCom',
+        'label' => 'SMTP.com',
+      ],
     ];
 
     if ($optionList) {
